@@ -1,0 +1,70 @@
+*{
+    font-family:'Courier New', Courier, monospace;
+}
+
+.input-field{
+    margin-left: 550px;
+    margin-top: 50px;
+}
+
+.input-field input {
+    padding: 7px 40px;
+    font-size: 16px;
+    font-weight: 900;
+    outline: none;
+    border: 1px solid rgba(51, 51, 51, 0.308);
+    box-shadow: 1px 22px 44px rgb(243, 242, 242);
+}
+
+.title{
+    display: flex;
+    margin-top: 100px;
+    margin-left: 460px;
+}
+
+.block1{
+    padding: 10px 50px;
+    background-color: rgb(208, 122, 28);
+    color: #fff;
+}
+
+.block2{
+    margin-left: 10px;
+    padding: 10px 70px;
+    background-color: rgb(208, 122, 28);
+    color: #fff;
+}
+
+.answers{
+    display: flex;
+    margin-left: 460px;
+    
+}
+
+#added-num{
+    margin-top: 20px;
+    margin-left: 90px;
+    font-weight: 900;
+}
+
+#even-odd{
+    margin-top: 20px;
+    margin-left: 200px;
+    font-weight: 900;
+}
+
+.display-line{
+    margin-top: 10px;
+    margin-left: 460px;
+}
+
+.line1{
+    width: 215px;
+    border-bottom: 1px solid rgba(51, 51, 51, 0.651);
+}
+
+.line2{
+    margin-left: 230px;
+    width: 215px;
+    border-bottom: 1px solid rgba(51, 51, 51, 0.651);
+}
