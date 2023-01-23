@@ -2,18 +2,47 @@
     font-family:'Courier New', Courier, monospace;
 }
 
+body{
+    background-color: rgba(170, 170, 170, 0.582);
+}
+
 .input-field{
     margin-left: 550px;
     margin-top: 50px;
 }
 
 .input-field input {
-    padding: 7px 40px;
+    width: 150px;
+    padding: 10px 20px;
     font-size: 16px;
-    font-weight: 900;
+    font-weight: 200;
     outline: none;
+    letter-spacing: 2px;
     border: 1px solid rgba(51, 51, 51, 0.308);
-    box-shadow: 1px 22px 44px rgb(243, 242, 242);
+    box-shadow: 1px 22px 44px rgb(153, 150, 150);
+}
+
+#clear-button{
+    padding: 10px 15px;
+    font-size: 17px;
+    border-radius: 20px;
+    background-color: #fff;
+    cursor: pointer;
+    border: 1px solid rgb(208, 122, 28);
+    transition: 0.5s;
+}
+
+#clear-button:hover{
+    background-color: rgb(209, 123, 30);
+    color: #fff;
+}
+
+#clear-button:active{
+    background-color: rgb(255, 138, 12);
+}
+
+.content{
+    margin-left: -150px;
 }
 
 .title{
@@ -35,19 +64,37 @@
     color: #fff;
 }
 
-.answers{
-    display: flex;
-    margin-left: 460px;
-    
+.block3{
+    margin-left: 10px;
+    padding: 10px 70px;
+    background-color: rgb(208, 122, 28);
+    color: #fff;
 }
 
-#added-num{
+.answers{
+    display: flex;
+    margin-left: 370px;  
+}
+
+#divide{
     margin-top: 20px;
     margin-left: 90px;
     font-weight: 900;
 }
 
 #even-odd{
+    margin-top: 20px;
+    margin-left: 200px;
+    font-weight: 900;
+}
+
+#square{
+    margin-top: 20px;
+    margin-left: 200px;
+    font-weight: 900;
+}
+
+#divide{
     margin-top: 20px;
     margin-left: 200px;
     font-weight: 900;
@@ -64,7 +111,14 @@
 }
 
 .line2{
-    margin-left: 230px;
+    margin-left: 225px;
     width: 215px;
     border-bottom: 1px solid rgba(51, 51, 51, 0.651);
 }
+
+.line3{
+    margin-left: 454px;
+    width: 196px;
+    border-bottom: 1px solid rgba(51, 51, 51, 0.651);
+}
+
